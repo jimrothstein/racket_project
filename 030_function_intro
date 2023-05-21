@@ -1,0 +1,16 @@
+#lang racket
+
+;  racket is call-by-value
+
+(define (f x y)
+  x)
+
+; the call
+(f 1 2)
+
+; infinite loop
+;(define (foo x)
+;  (foo x)
+; since never terminates, actually do not need x
+
+; (define (foo) (foo))  runs forever, no need x

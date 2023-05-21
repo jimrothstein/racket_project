@@ -1,0 +1,6 @@
+#lang racket
+
+;; if is example of built-in `form`
+(if  #f
+    12
+    "hello")
