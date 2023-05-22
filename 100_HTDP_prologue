@@ -1,0 +1,26 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname 100_HTDP_prologue) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(+ 1 1)
+
+; consume 2 strings, produce 1
+(string-append "hello" "world")
+
+; length  string to number
+(string-length "hi")
+
+; number to string
+(number->string 4)
+
+; true if all strings same
+(string=? "a" "a")
+
+; 1string (single character) at position , index starts 0
+(string-ith "hello" 4)
+
+(define str "helloworld")
+(define ind "0123456789")
+(define i 5)
+
+; syntax, rules that make valid statement "The cat is round."
+; symantics,  valid but what is meaning?   "The brick is car"
